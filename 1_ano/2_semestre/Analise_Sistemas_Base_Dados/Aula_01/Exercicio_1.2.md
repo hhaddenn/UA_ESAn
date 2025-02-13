@@ -2,7 +2,6 @@
 
 ## 1. Atores
     Enfermeira
-    FuncionárioCantina
     Médico
     Admin
 
@@ -16,8 +15,6 @@ Todos fazem LogIn e LogOut
     ConsultarDoente
     ConsultarDieta
     ConsultarHorário
-### FuncionérioCantina
-    ConsultarDieta
 ### Médico
     CriarHorário
     AlterarHorário
