@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "name": "Produto 1",
+            "price": 19.99,
+            "img": "product1.jpg",
+            "category": "Electronics"
+        },
+        {
+            "name": "Produto 2",
+            "price": 29.99,
+            "img": "product2.jpg",
+            "category": "Home Appliances"
+        }
+    ]
+}
