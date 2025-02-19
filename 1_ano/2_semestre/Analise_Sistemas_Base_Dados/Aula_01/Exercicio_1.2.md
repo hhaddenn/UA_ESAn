@@ -31,5 +31,5 @@ Todos fazem LogIn e LogOut
 ## 4. Descrição simples dos Use Cases
 ### ConsultarAlgo
     Ver a informação sobre esse doente, dieta, Enfermeira ou horário
-### Alterar
+### AlterarAlgo
     Alterar a informaçao do doente, dieta, Enfermeira, horário
