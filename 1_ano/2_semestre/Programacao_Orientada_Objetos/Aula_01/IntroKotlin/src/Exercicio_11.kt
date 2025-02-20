@@ -8,11 +8,6 @@ fun main() {
                 probabilidade += "dado 1:$n1, dado 2:$n2"
             }
         }
-        for (n2 in dado2.reversedArray()) {
-            if (n1 + n2 == 7) {
-                probabilidade += "dado 2:$n2, dado 1:$n1"
-            }
-        }
     }
     for (n in probabilidade) {
         println(n)

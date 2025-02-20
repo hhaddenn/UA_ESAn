@@ -1,21 +1,36 @@
 fun main() {
-    var pessoas = emptyMap<String, String>()
-    for (i in 1..2) {
+    var idade50: Int = 0
+    var mediaAlturas: Double = 0.0
+    var totalAlturas: Int = 0
+    var peso40: Double = 0.0
+    var percentagemPeso40: Double = 0.0
+    for (i in 1..12) {
         println()
         println("Pessoa $i")
         print("Escreva a idade: ")
         val idade: Int = readln().toInt()
-        pessoas.plus("idade" to idade)
         print("Escreva a altura em cm: ")
         val altura: Int = readln().toInt()
-        pessoas.plus("alturas" to altura)
         print("Escreva o peso: ")
         val peso: Double = readln().toDouble()
-        pessoas.plus("peso" to peso)
+        //Idades acima de 50
+        if (idade > 50) {
+            idade50 += 1
+        }
+        //Média de alturas com idade [10..20]
+        if (idade in 10..20) {
+            totalAlturas += 1
+            mediaAlturas += altura
+        }
+        //Percentagem de pessoas com peso<40
+        if (peso < 40) {
+            peso40 += 1
+        }
     }
-    val mais50 = pessoas.filter {
-        (key, value) -> key=="idade" && value.toInt()>50
-    }
+    mediaAlturas /= totalAlturas
+    percentagemPeso40 = (peso40 / 12) * 100
     println()
-    println("Quantidade de pessoas que tem idade>50: $mais50")
+    println("Número de pessoas com idade>50: $idade50")
+    println("A média de alturas das pessoas com idades entre 10 e 20: $mediaAlturas")
+    println("Percentagem de pessoas com peso<40: $percentagemPeso40")
 }
