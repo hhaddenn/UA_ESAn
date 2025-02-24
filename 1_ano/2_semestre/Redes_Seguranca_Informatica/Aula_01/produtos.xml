@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE categories [
-    <!ENTITY category "Eletronics">
-]>
+
 <products>
     <product>
         <name>Produto 1</name>
         <price>19.99</price>
         <img>product1.jpg</img>
-        <category>&category;</category>
+        <category>Eletronics;</category>
     </product>
     <product>
         <name>Produto 2</name>
         <price>29.99</price>
         <img>product2.jpg</img>
-        <category>&category;</category>
+        <category>Home Applience;</category>
     </product>
 </products>

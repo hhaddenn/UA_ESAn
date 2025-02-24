@@ -1,7 +1,7 @@
 import json
 import xml.etree.ElementTree as ET
 
-with open('produtos.json', 'r') as file:
+with open('produtos.json') as file:
     data_json = json.load(file)
 
 tree = ET.parse('produtos.xml')

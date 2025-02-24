@@ -5,7 +5,6 @@ fun main() {
     for (i in 1..altura ) {
         print(" ".repeat(espaco))
         print("*".repeat(i*2-1))
-        print(" ".repeat(espaco))
         espaco -= 1
         println()
     }
