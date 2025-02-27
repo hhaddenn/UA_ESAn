@@ -24,7 +24,7 @@
 
 ### Diagrama de atividades
 
-<img src="iniciarSessão.png" width="700" height="600" alt="Fluxo iniciar sessão">
+<img src="Imagens/iniciarSessão.png" width="700" height="600" alt="Fluxo iniciar sessão">
 
 # Imprimir Comprovativo
 
@@ -50,7 +50,7 @@
 
 ### Diagrama de atividades
 
-<img src="imprimirComprovativo.png" width="700" height="600" alt="Fluxo imprimir comprovativo">
+<img src="Imagens/imprimirComprovativo.png" width="700" height="600" alt="Fluxo imprimir comprovativo">
 
 # Consultar Inscrições (do Aluno)
 
@@ -75,7 +75,7 @@
 | Percurso Alternativo    |                                              |                                                              |
 
 ### Diagrama de atividades
-<img src="consultarInscricoes_Aluno.png" height="600" width="700" alt="Fluxo consultar inscrições">
+<img src="Imagens/consultarInscricoes_Aluno.png" height="600" width="700" alt="Fluxo consultar inscrições">
 
 # Consultar Lista de Inscritos a Disciplina
 
@@ -101,7 +101,7 @@
 
 ### Diagrama de atividades
 
-<img src="listaAlunosInscritos.png" width="700" height="600" alt="Fluxo lista de alunos inscritos">
+<img src="Imagens/listaAlunosInscritos.png" width="700" height="600" alt="Fluxo lista de alunos inscritos">
 
 # Inscrever Alunos em Disciplinas
 
@@ -127,4 +127,4 @@
 
 ### Diagrama de atividades
 
-<img src="inserirAluno.png" width="700" height="600" alt="Fluxo Inserir aluno">
+<img src="Imagens/inserirAluno.png" width="700" height="600" alt="Fluxo Inserir aluno">

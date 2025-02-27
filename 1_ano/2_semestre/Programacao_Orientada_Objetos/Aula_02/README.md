@@ -26,7 +26,7 @@ Altura: 4
 *******
 ```
 
-7. Escreva um programa quer faça o controle de estoque de uma loja. Em um menu deve ter as opções:
+7. Escreva um programa que faça o controle de estoque de uma loja. Em um menu deve ter as opções:
    * cadastrar produto
    * editar produto
    * vender pruduto
