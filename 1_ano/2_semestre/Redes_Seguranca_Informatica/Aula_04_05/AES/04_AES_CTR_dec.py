@@ -4,7 +4,7 @@ from Crypto.Cipher import AES
 from base64 import b64decode
 import json
 
-key=b"aaaabbbbccccdddd"
+key=b"oarrozdecabidela"
 
 
 # Abrir Ficheiro

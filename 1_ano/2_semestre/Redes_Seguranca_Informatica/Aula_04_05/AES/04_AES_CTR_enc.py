@@ -4,13 +4,14 @@ from Crypto.Cipher import AES
 from base64 import b64encode
 import json
 
-key=b"aaaabbbbccccdddd"
+key=b"oarrozdecabidela"
 cipher = AES.new(key,AES.MODE_CTR)
 
 # Ler ficheiro
-with open("msg.txt","r") as f:
+file = input('Nome do ficheiro a ler: ')
+with open(file,"r") as f:
     data = f.read()
-print('Mensagem lida:\n',data)
+#print('Mensagem lida:\n',data)
 
 # Encriptar
 ciphertext = cipher.encrypt(data.encode())
@@ -23,5 +24,6 @@ result = json.dumps({'nonce':nonce, 'ciphertext':ct})
 print('Mensagem a criar:\n',result)
 
 # Escrever ficheiro
-with open("msg_enc.json","w") as f:
+file = input('Nome do ficheiro a criar: ')
+with open(file,"w") as f:
     f.write(result)

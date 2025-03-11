@@ -38,7 +38,7 @@ class AESCipher:
 ##
 # MAIN
 # Ler mensagem
-key = 'aaaabbbbccccdddd'
-msg = input('Mensagem..: ')
+key = input('Chave.....: ')
+msg = input('Mensagem encriptada..: ')
 
-print('Ciphertext:', AESCipher(key).encrypt(msg).decode())
+print('Ciphertext:', AESCipher(key).decrypt(msg).encode())
